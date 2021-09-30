@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".EmployeeDetails">
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/flendzz_activity_employee_id_materialtextview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_margin="3dp"
+        android:text="Employee Id"
+        android:textColor="@color/black"
+        android:textSize="13sp"
+        android:textStyle="bold">
+
+    </com.google.android.material.textview.MaterialTextView>
+
+    <com.google.android.material.textview.MaterialTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Employee Name"
+        android:id="@+id/flendzz_activity_employee_name_materialtextview"
+        android:layout_below="@+id/flendzz_activity_employee_id_materialtextview"
+        android:textSize="13sp"
+        android:layout_margin="3dp"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        >
+    </com.google.android.material.textview.MaterialTextView>
+
+    <com.google.android.material.textview.MaterialTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Email"
+        android:id="@+id/flendzz_activity_employee_email_materialtextview"
+        android:layout_below="@+id/flendzz_activity_employee_name_materialtextview"
+        android:textSize="13sp"
+        android:layout_margin="3dp"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        >
+    </com.google.android.material.textview.MaterialTextView>
+
+    <com.google.android.material.textview.MaterialTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Address"
+        android:id="@+id/flendzz_activity_employee_address_materialtextview"
+        android:layout_below="@+id/flendzz_activity_employee_email_materialtextview"
+        android:textSize="13sp"
+        android:layout_margin="3dp"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        >
+    </com.google.android.material.textview.MaterialTextView>
+
+    <LinearLayout
+        android:id="@+id/flendzz_linearlayout01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/flendzz_activity_employee_address_materialtextview"
+        android:orientation="horizontal"
+        android:weightSum="2">
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/flendzz_activity_employee_suite_materialtextview"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/flendzz_linearlayout"
+            android:layout_margin="3dp"
+            android:layout_weight="1"
+            android:text="Suite"
+            android:textColor="@color/black"
+            android:textSize="10sp"
+            android:textStyle="bold">
+
+        </com.google.android.material.textview.MaterialTextView>
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/flendzz_activity_employee_street_materialtextview"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/flendzz_activity_employee_street_materialtextview"
+            android:layout_margin="3dp"
+            android:layout_weight="1"
+            android:text="Street"
+            android:textColor="@color/black"
+            android:textSize="10sp"
+            android:textStyle="bold">
+
+        </com.google.android.material.textview.MaterialTextView>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/flendzz_linearlayout02"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/flendzz_linearlayout01"
+        android:orientation="horizontal"
+        android:weightSum="2">
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/flendzz_activity_employee_city_materialtextview"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/flendzz_linearlayout"
+            android:layout_margin="3dp"
+            android:layout_weight="1"
+            android:text="City"
+            android:textColor="@color/black"
+            android:textSize="10sp"
+            android:textStyle="bold">
+
+        </com.google.android.material.textview.MaterialTextView>
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/flendzz_activity_employee_zipcode_materialtextview"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="3dp"
+            android:layout_weight="1"
+            android:text="ZipCode"
+            android:textColor="@color/black"
+            android:textSize="10sp"
+            android:textStyle="bold">
+
+        </com.google.android.material.textview.MaterialTextView>
+
+
+    </LinearLayout>
+
+    <com.google.android.material.textview.MaterialTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Phone Number"
+        android:id="@+id/flendzz_activity_employee_phonenumber_materialtextview"
+        android:layout_below="@+id/flendzz_linearlayout02"
+        android:textSize="13sp"
+        android:layout_margin="3dp"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        >
+    </com.google.android.material.textview.MaterialTextView>
+
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/flendzz_activity_companydetails_materialtextview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/flendzz_activity_employee_phonenumber_materialtextview"
+        android:layout_marginStart="3dp"
+        android:layout_marginTop="3dp"
+        android:layout_marginEnd="3dp"
+        android:layout_marginBottom="3dp"
+        android:text="Company Details"
+        android:textColor="@color/black"
+        android:textSize="13sp"
+        android:textStyle="bold">
+
+    </com.google.android.material.textview.MaterialTextView>
+
+    <com.google.android.material.textview.MaterialTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Company Name"
+        android:id="@+id/flendzz_activity_companyname_materialtextview"
+        android:layout_below="@+id/flendzz_activity_companydetails_materialtextview"
+        android:textSize="13sp"
+        android:layout_margin="3dp"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        >
+    </com.google.android.material.textview.MaterialTextView>
+
+    <com.google.android.material.textview.MaterialTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Website"
+        android:id="@+id/flendzz_activity_website_materialtextview"
+        android:layout_below="@+id/flendzz_activity_companyname_materialtextview"
+        android:textSize="13sp"
+        android:layout_margin="3dp"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        >
+    </com.google.android.material.textview.MaterialTextView>
+
+</RelativeLayout>

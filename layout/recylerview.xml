@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp"
+    >
+
+            <com.google.android.material.textview.MaterialTextView
+                android:id="@+id/flendzz_employeename_materialtextview"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Leanne Graham"
+                android:textAllCaps="false"
+                android:textColor="@color/black"
+                android:layout_margin="10dp"
+                android:textColorHint="@color/black"
+                android:textSize="18dp"
+                android:textStyle="bold">
+
+            </com.google.android.material.textview.MaterialTextView>
+
+            <com.google.android.material.textview.MaterialTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/flendzz_employeemail_materialtextview"
+                android:text="sincere@april.biz"
+                android:layout_margin="10dp"
+                android:textAllCaps="false"
+                android:textColor="@color/black"
+                android:textColorHint="@color/black"
+                android:textSize="18dp"
+                android:layout_below="@id/flendzz_employeename_materialtextview"
+                android:textStyle="bold">
+
+            </com.google.android.material.textview.MaterialTextView>
+
+
+</RelativeLayout>
